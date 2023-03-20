@@ -18,6 +18,12 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),
+      "@function-ui/packages/utils": fileURLToPath(
+        new URL("./function-ui/packages/utils/index.ts", import.meta.url)
+      ),
+      "@function-ui/packages/components": fileURLToPath(
+        new URL("./function-ui/packages/components/index.ts", import.meta.url)
+      ),
     },
   },
 });

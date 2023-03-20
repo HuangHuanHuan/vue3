@@ -4,3 +4,6 @@ declare module "*.vue" {
     const component: DefineComponent<{}, {}, any>;
     export default component;
 }
+
+declare module '@function-ui/packages/utils'
+declare module '@function-ui/packages/components'

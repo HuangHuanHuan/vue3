@@ -1,5 +1,6 @@
 <template>
   <div>welcome</div>
+  <k-button type="primary"></k-button>
 </template>
 
 <script lang="ts">
